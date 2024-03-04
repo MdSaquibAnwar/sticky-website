@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 20px 100px;
+
+}
+#head{
+    text-align: center;
+
+}
+#logo{
+    
+    width: 250px;
+    height: auto;
+}
+.menu_bar{
+     /* text-decoration: none; */
+     text-align: center;
+     background-color: cadetblue;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+.menu_bar li{
+    padding: 10px 10px;
+    list-style: none;
+    font-size: 20px;
+    color: white;
+}
+.container{
+    text-align: center;
+    padding: 50px 50px;
+}
+.img2{
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 85%;
+}
